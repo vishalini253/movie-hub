@@ -1,0 +1,13 @@
+.movie-header {
+    text-align: center;
+    color: #fefefe;
+    display: flex;
+    justify-content: center;
+    background-color: #E2112E;
+    padding: 16px;
+}
+
+.my-movie-title, .my-movie-icon {
+    color: #fefefe;
+    margin-top: auto;
+}

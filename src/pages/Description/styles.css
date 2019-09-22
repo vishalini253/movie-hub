@@ -1,0 +1,56 @@
+.description-page {
+    background-color: #4b4b4d;
+}
+
+.movie-details {
+    padding: 1rem;
+}
+
+.movie-name,
+.movie-release-details,
+.movie-director,
+.movie-description {
+    margin: 0.75rem;
+    font-size: 2rem;
+    color: #fefefe;
+}
+
+.movie-release-details {
+    font-size: 1rem;
+    width: 24%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.movie-director,
+.movie-description {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.view-ratings {
+    background:none;
+    border:none;
+    color: #fefefe;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0 0.75rem;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+.view-ratings:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .movie-release-details {
+        width: 35%;
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-release-details {
+        width: 75%;
+    }
+}

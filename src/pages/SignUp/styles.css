@@ -1,0 +1,111 @@
+
+.signup-page-container {
+    justify-content: center;
+    height: 100%;
+    background-color: #E2112E;
+    /* background-image: url('../../assets/holding-mob.jpg');
+    background-blend-mode: overlay;
+    background-size: cover; */
+}
+
+.signup-page-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.signup-nav {
+    font-size: 20px;
+    padding: 20px;
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.signup-nav:hover {
+    text-decoration: underline;
+}
+
+.signup-page-wrapper {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.signup-header {
+    width: 100%;
+    justify-content: center;
+}
+.my-movie-title, .my-movie-icon {
+    color: #fefefe;
+}
+
+.my-movie-icon {
+    margin: 0 24px;
+}
+
+form {
+    height: 318px;
+    justify-content: center;
+}
+.form-group {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 12px 0px;
+    margin: 8px 20px;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #fefefe;
+    font-size: 16px;
+    color: #fefefe;
+    background-color: #E2112E;
+}
+input::placeholder {
+    color: #fefefe;
+}
+input:focus {
+    border: none;
+    border-bottom: 1px solid #fefefe;
+}
+input:-webkit-autofill,
+input:-internal-autofill-selected,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {   
+    border: none;
+    border-bottom: 1px solid #fefefe;
+    color: #fefefe !important;
+    background-color: #E2112E !important;
+}
+
+.form-group .password-icon,
+.form-group .email-icon,
+.form-group .user-icon,
+.form-group .calendar-icon {
+    width: 10%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+button {    
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #fefefe;
+    color: #E2112E;
+    border-radius: 25px;
+    margin: 16px 18px;
+  }
+
+.error-message, .help-block {
+    color: #ffffff;
+    font-size: 16px;      
+    padding: 12px 0px;
+    margin: 8px 20px;
+  }
